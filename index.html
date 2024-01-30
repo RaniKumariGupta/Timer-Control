@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Control</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Timer Control</h1>
+    <div class="timer-container">
+        <div id="timer">0 seconds</div>
+        <div class="btn-container">
+            <button class="btn" id="increase-btn" style="background-color: #28a745;"><i class="fas fa-plus"></i> 10Seconds</button>
+            <button class="btn" id="decrease-btn" style=" background-color: #dc3545;"><i class="fas fa-minus"></i> 10Seconds</button>
+            <button class="btn" id="reset-btn" style="background-color: #007bff;"><i class="fas fa-sync-alt"></i> Reset Timer</button>
+        </div>
+    </div>
+    <div id="log">
+        <h2 class="log-title">Action Log</h2>
+        <ul id="action-log"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
